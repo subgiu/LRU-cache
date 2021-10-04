@@ -15,10 +15,10 @@ The cache has a capacity, so when it would be reached, it is necessary to remove
      
 + Cache: **The cache starts empty.**           
 + add(1); **Add the element 1 to the cache.**   
-+ Cache: 1 **The cache has the element 1. **
++ Cache: 1 **The cache has the element 1.**
 + The getRecent() returns 1.   
 + add(2);    
-+ Cache: 2-1 **The cache has the element 2 and 1. **
++ Cache: 2-1 **The cache has the element 2 and 1.**
 + The getRecent() returns 2.  
 + add(3);   
 + Cache: 3-2 **The cache has the element 2 and 3. (The last recent = 1 was removed, because it reached the capacity.)**
