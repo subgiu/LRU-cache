@@ -1,6 +1,6 @@
 # LRU (Least Recently Used) Cache
 
-**A cache that returns the most recent element used and evicts the least recently according to a capacity.**  
+**A cache that returns the most recent element used and evicts the least recent according to a capacity.**  
 **All operations must be very fast, because it will be used every time, running in a time complexity: O(1).**
 
 It would be used in a web browser history scenario for example.
