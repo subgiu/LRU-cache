@@ -30,4 +30,4 @@ The cache has a capacity, so when it would be reached, it is necessary to remove
 + For reaching this strict requirement about time complexity, it has been using a hash table to keep and get objects with O(1), 
 and a Double Linked List for keeping the sequence of access because it provides a very fast way to add and remove elements O(1). 
 
- ***The implementation is generic, so the value would be everything, like a number or a string.***
+ ***The implementation is generic, so the value would be anything, like a number or a string.***
